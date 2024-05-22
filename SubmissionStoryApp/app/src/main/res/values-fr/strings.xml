@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application d\'histoire</string>
+    <string name="tv_welcome_title">Bienvenue dans l\'application Story</string>
+    <string name="desc_welcome">Racontez votre histoire car raconter une histoire est un art pour se connecter avec d\'autres personnes et aussi un art pour sculpter votre imagination.</string>
+    <string name="login">Se connecter</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="title_signup">Complétez d\'abord vos données.</string>
+    <string name="name">Nom</string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="title_login">Commençons à créer votre histoire</string>
+    <string name="language">Paramètres de langue</string>
+    <string name="logout">Sortie</string>
+    <string name="addStory">Bouton Ajouter une histoire</string>
+    <string name="image_story">Histoire d’images</string>
+    <string name="author">Nom de l\'auteur</string>
+    <string name="date_created">date créée</string>
+    <string name="desc_story">Description de l\'histoire</string>
+    <string name="preview_image">Aperçu de l\'image</string>
+    <string name="camera">Caméra</string>
+    <string name="gallery">Galerie</string>
+    <string name="description">Description</string>
+    <string name="upload">Télécharger</string>
+    <string name="confirmExit">Confirmation de sortie</string>
+    <string name="exit">Etes-vous sûr de vouloir quitter/déconnecter ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="storyEmpty">L\'histoire est vide</string>
+    <string name="detailStory">Histoire détaillée</string>
+    <string name="validEmail">L\'email doit être renseigné</string>
+    <string name="validPassword">Le mot de passe doit être renseigné</string>
+    <string name="loginSuccess">Connexion réussie</string>
+    <string name="next">Suivant</string>
+    <string name="validName">Le nom doit être renseigné</string>
+    <string name="emailValid">L\'email doit être renseigné</string>
+    <string name="passwordValid">Le mot de passe doit être renseigné</string>
+    <string name="account_created">Le compte avec %1$s est prêt. Connectons-nous et commençons à partager une histoire.</string>
+    <string name="signupFail">L\'inscription a échoué, veuillez réessayer !!!</string>
+    <string name="uploadSuccess">Téléchargement réussi</string>
+    <string name="storyUploadSuccess">Histoire téléchargéeavec succès</string>
+    <string name="tokenInfo">Le jeton n\'est pas disponible</string>
+    <string name="empty_image">L\'image ne peut pas être vide</string>
+    <string name="alert_invalid_email">E-mail invalide</string>
+    <string name="passMustbe">Le mot de passe ne doit pas contenir moins de 8 caractères</string>
+</resources>

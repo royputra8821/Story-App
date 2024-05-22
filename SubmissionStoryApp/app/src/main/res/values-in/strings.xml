@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplikasi Cerita</string>
+    <string name="tv_welcome_title">Selamat Datang di Aplikasi Cerita</string>
+    <string name="desc_welcome">Tuangkan ceritamu karena bercerita adalah seni untuk berhubungan dengan orang lain dan juga seni untuk mengukir imajinasi.</string>
+    <string name="login">Gabung</string>
+    <string name="signup">Mendaftar</string>
+    <string name="title_signup">Lengkapi data Anda terlebih dahulu.</string>
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Kata sandi</string>
+    <string name="title_login">Mari Mulai Membuat Cerita Anda</string>
+    <string name="language">Pengaturan bahasa</string>
+    <string name="logout">KELUAR</string>
+    <string name="addStory">Tombol Tambah Cerita</string>
+    <string name="image_story">Cerita Gambar</string>
+    <string name="author">Nama Penulis</string>
+    <string name="date_created">Tanggal Diciptakan</string>
+    <string name="desc_story">Deskripsi Cerita</string>
+    <string name="preview_image">Pratinjau Gambar</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="description">Deskripsi</string>
+    <string name="upload">Mengunggah</string>
+    <string name="confirmExit">Konfirmasi Keluar</string>
+    <string name="exit">Apakah Anda yakin ingin Keluar?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="storyEmpty">Ceritanya Kosong</string>
+    <string name="detailStory">Cerita Detil</string>
+    <string name="validEmail">Email harus diisi</string>
+    <string name="validPassword">Kata sandi harus diisi</string>
+    <string name="loginSuccess">Login berhasil</string>
+    <string name="next">Berikutnya</string>
+    <string name="validName">Nama harus diisi</string>
+    <string name="emailValid">Email harus diisi</string>
+    <string name="passwordValid">Kata sandi harus diisi</string>
+    <string name="account_created">Akun dengan %1$s sudah siap. Mari masuk dan mulai berbagi cerita.</string>
+    <string name="signupFail">Pendaftaran gagal, silakan coba lagi!!!</string>
+    <string name="uploadSuccess">Unggahan berhasil</string>
+    <string name="storyUploadSuccess">Cerita berhasil diunggah</string>
+    <string name="tokenInfo">Token tidak tersedia</string>
+    <string name="empty_image">Gambar Tidak boleh kosong</string>
+    <string name="alert_invalid_email">Email Tidak Valid</string>
+    <string name="passMustbe">Kata sandi tidak boleh kurang dari 8 karakter</string>
+</resources>

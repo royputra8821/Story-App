@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.StoryAdd.StoryAddActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pvImgView"
+            android:layout_width="328dp"
+            android:layout_height="328dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/preview_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_preview_image_24" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/camera"
+            app:layout_constraintEnd_toStartOf="@+id/btnGallery"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pvImgView" />
+
+        <Button
+            android:id="@+id/btnGallery"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="@string/gallery"
+            app:layout_constraintBottom_toBottomOf="@+id/btnCamera"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@id/btnCamera"
+            app:layout_constraintTop_toTopOf="@+id/btnCamera"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/descText"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_margin="32dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints="username"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="start"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:padding="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnCamera" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="330dp"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/upload"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descText"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
